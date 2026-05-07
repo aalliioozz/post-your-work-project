@@ -14,6 +14,13 @@ The project contains:
 - This `README.md` file for documentation
 
 
+### Limitations
+- The analysis is limited to the provided datasets
+- Data accuracy depends on the source files
+- Some cities may have missing values
+``
+
+
 ### Requirements
 To run this project, the following software is required:
 
