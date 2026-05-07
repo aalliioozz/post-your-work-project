@@ -119,6 +119,11 @@ def user_stats(df):
 
 
 def main():
+    """
+    Controls the overall program flow by repeatedly asking for user input,
+    loading data, and displaying statistics until the user chooses to exit.
+    """
+
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
