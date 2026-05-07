@@ -80,7 +80,8 @@ def station_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    SEPARATOR = '-' * 40
+    print(SEPARATOR)
 
 
 def trip_duration_stats(df):
