@@ -1,27 +1,29 @@
 >**Note**: Please **fork** this Udacity repository so you have a **remote** repository in **your** GitHub account. Then you can clone the remote repository to your local machine. Later, as a part of the project, you will push your changes to the remote repository in your GitHub account.
 
 
-# Project Title
+# Bikeshare Project
 
-Describe what your project is about and what it does
+The Bikeshare Project is a Python-based data exploration project that analyzes data from bike share systems. The purpose of the project is to practice using Python to load, process, and analyze real-world datasets and to gain insights into how bike sharing services are used.
 
 ## Information about how to use your project
 
-This could include:
+### Project structure
+The project contains:
+- One Python file used for data analysis
+- One or more `.csv` files containing bikeshare data
+- This `README.md` file for documentation
 
-- Step-by-step instructions for installing or setting up your project.
-- Any software dependencies that need to be installed.
-- Instructions and examples for how to use your project, including any helpful code snippets.
-- Common issues and troubleshooting tips
 
-## Contribution guidelines
+### Requirements
+To run this project, the following software is required:
 
-If you welcome contributions, provide guidelines on how others can contribute to your project.
+- Python 3.x
+- Python libraries:
+  - pandas
+  - numpy
 
-## Credits
+You can install the required libraries using:
 
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
-## Date created
-
-Include the date you created this project and README file.
+```bash
+pip install pandas numpy
+``
